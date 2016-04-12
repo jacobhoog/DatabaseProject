@@ -14,7 +14,7 @@ git checkout [branch name]					<-this is for switching branches
 git merge master
 git add [file you edited]
 git commit –m “comment”
-git push
+git push --set-upstream origin [branch name] <- using just git push is fine if you are reusing an existing branch
 -now go to GitHub Website and a make a pull request using the branch you made
 -additional “add, commit, push” commands can be done at any time and will be added to your next PR is you do not have one currently open
 
